@@ -1,1 +1,1 @@
-# Unity-cwiczenia
+Repozytorium do laboratoriów z Unity
