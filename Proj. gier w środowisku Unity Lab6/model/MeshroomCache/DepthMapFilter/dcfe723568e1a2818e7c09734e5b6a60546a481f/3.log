@@ -1,0 +1,20 @@
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "C:/Users/adamr/Desktop/model/MeshroomCache/DepthMap/35dcb612e50e634fff0b40f0ce46e4f28dee6d16"
+ * input = "C:/Users/adamr/Desktop/model/MeshroomCache/StructureFromMotion/593386d764658876097ff6ce205b18306f624e95/sfm.abc"
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "C:/Users/adamr/Desktop/model/MeshroomCache/DepthMapFilter/dcfe723568e1a2818e7c09734e5b6a60546a481f"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * rangeSize = 10
+ * rangeStart = 30
+ * verboseLevel = "info"
+
+[09:09:14.280468][info] Found 1 image dimension(s): 
+[09:09:14.280468][info] 	- [1488x2000]
+[09:09:14.290441][info] Overall maximum dimension: [1488x2000]
+[09:09:14.290441][info] No camera to process.

@@ -1,0 +1,159 @@
+Program called with the following parameters:
+ * addLandmarksToTheDensePointCloud = 0
+ * angleFactor = 15
+ * colorizeOutput = 0
+ * contributeMarginFactor = 2
+ * depthMapsFolder = "C:/Users/adamr/Desktop/model/MeshroomCache/DepthMapFilter/dcfe723568e1a2818e7c09734e5b6a60546a481f"
+ * estimateSpaceFromSfM = 1
+ * estimateSpaceMinObservationAngle = 10
+ * estimateSpaceMinObservations = 3
+ * forceTEdgeDelta = 0.1 (default)
+ * input = "C:/Users/adamr/Desktop/model/MeshroomCache/StructureFromMotion/593386d764658876097ff6ce205b18306f624e95/sfm.abc"
+ * maxInputPoints = 50000000
+ * maxPoints = 5000000
+ * maxPointsPerVoxel = 1000000
+ * minAngleThreshold = 1
+ * minStep = 2
+ * output = "C:/Users/adamr/Desktop/model/MeshroomCache/Meshing/f6a63d9195a0855bc50cdd283ff1eb51f015c79c/densePointCloud.abc"
+ * outputMesh = "C:/Users/adamr/Desktop/model/MeshroomCache/Meshing/f6a63d9195a0855bc50cdd283ff1eb51f015c79c/mesh.obj"
+ * partitioning =  Unknown Type "enum EPartitioningMode"
+ * pixSizeMarginFinalCoef = 4
+ * pixSizeMarginInitCoef = 2
+ * refineFuse = 1
+ * repartition =  Unknown Type "enum ERepartitionMode"
+ * saveRawDensePointCloud = 0
+ * seed =  Unknown Type "unsigned int" (default)
+ * simFactor = 15
+ * simGaussianSize = 10
+ * simGaussianSizeInit = 10
+ * universePercentile = 0.999 (default)
+ * verboseLevel = "info"
+ * voteMarginFactor = 4
+
+[09:09:14.507860][info] Found 1 image dimension(s): 
+[09:09:14.507860][info] 	- [1488x2000]
+[09:09:14.518831][info] Overall maximum dimension: [1488x2000]
+[09:09:14.518831][warning] repartitionMode: 1
+[09:09:14.518831][warning] partitioningMode: 1
+[09:09:14.518831][info] Meshing mode: multi-resolution, partitioning: single block.
+[09:09:14.518831][info] Estimate space from SfM.
+[09:09:14.522820][info] Estimate space done.
+[09:09:14.535786][info] Creating dense point cloud.
+[09:09:14.535786][info] fuseFromDepthMaps, maxVertices: 5000000
+[09:09:14.683391][info] simFactor: 15
+[09:09:14.683391][info] nbPixels: 32736000
+[09:09:14.683391][info] maxVertices: 5000000
+[09:09:14.683391][info] step: 2
+[09:09:14.683391][info] realMaxVertices: 8184000
+[09:09:14.683391][info] Load depth maps and add points.
+[09:09:16.098986][info] Filter initial 3D points by pixel size to remove duplicates.
+[09:09:16.098986][info] Build nanoflann KdTree index.
+[09:09:17.656456][info] KdTree created for 8184000 points.
+[09:09:17.811043][info] Filtering done.
+[09:09:17.865531][info] 7990773 invalid points removed.
+[09:09:17.889467][info] 3D points loaded and filtered to 193227 points.
+[09:09:17.889467][info] Init visibilities to compute angle scores
+[09:09:17.948309][info] NANOFLANN: KdTree created.
+[09:09:17.963269][info] Create visibilities (0/10)
+[09:09:17.963269][info] Create visibilities (4/10)
+[09:09:17.963269][info] Create visibilities (7/10)
+[09:09:18.354224][info] Create visibilities (8/10)
+[09:09:18.505840][info] Create visibilities (5/10)
+[09:09:18.521825][info] Create visibilities (1/10)
+[09:09:18.706769][info] Create visibilities (9/10)
+[09:09:18.957723][info] Create visibilities (2/10)
+[09:09:18.987711][info] Create visibilities (6/10)
+[09:09:19.362624][info] Create visibilities (3/10)
+[09:09:19.582559][info] Visibilities created.
+[09:09:19.584555][info] Compute max angle per point
+[09:09:19.584555][info] angleFactor: 15
+[09:09:19.650884][info] 37580 invalid points removed.
+[09:09:19.679806][info] Filter by angle score and sim score
+[09:09:19.679806][info] Build nanoflann KdTree index.
+[09:09:19.729797][info] KdTree created for 155647 points.
+[09:09:19.750740][info] Filtering done.
+[09:09:19.758719][info] 116710 invalid points removed.
+[09:09:19.770687][info] The number of points is below the max number of vertices.
+[09:09:19.770687][info] 3D points loaded and filtered to 38937 points (maxVertices is 5000000).
+[09:09:19.770687][info] Create final visibilities
+[09:09:19.783653][info] NANOFLANN: KdTree created.
+[09:09:19.788639][info] Create visibilities (0/10)
+[09:09:19.788639][info] Create visibilities (4/10)
+[09:09:19.788639][info] Create visibilities (7/10)
+[09:09:20.151669][info] Create visibilities (8/10)
+[09:09:20.236442][info] Create visibilities (1/10)
+[09:09:20.452075][info] Create visibilities (9/10)
+[09:09:20.492059][info] Create visibilities (5/10)
+[09:09:20.641997][info] Create visibilities (2/10)
+[09:09:20.987928][info] Create visibilities (6/10)
+[09:09:21.015869][info] Create visibilities (3/10)
+[09:09:21.312780][info] Visibilities created.
+[09:09:21.312780][info] fuseFromDepthMaps done: 38937 points created.
+[09:09:21.637605][info] 249104 cells created by tetrahedralization.
+[09:09:21.982682][info] coutInvalidVertices: 0
+[09:09:21.982682][info] neighboringCellsPerVertexTmp: 40268
+[09:09:21.983679][info] verticesCoords: 40268
+[09:09:22.213066][info] DelaunayGraphCut::voteFullEmptyScore
+[09:09:22.213066][info] sigma: 4
+[09:09:22.213066][info] Jancosek IJCV method ( forceTEdgeDelta*100 = 10 ): 
+[09:09:22.213066][info] Computing s-t graph weights.
+[09:09:22.213066][info] setIsOnSurface nbSurfaceFacets: 0
+[09:09:22.847895][info] Forcing t-edges
+[09:09:23.122178][info] reconstructGC start.
+[09:09:23.122178][info] Maxflow: start allocation.
+[09:09:23.176035][info] Maxflow: add nodes.
+[09:09:23.246845][info] Maxflow: add edges.
+[09:09:24.317060][info] Maxflow: clear cells info.
+[09:09:24.318057][info] Maxflow: compute.
+[09:09:24.318057][info] # vertices: 249106, capacity: 249106
+[09:09:24.320052][info] 	- size[5]: 6
+[09:09:24.320052][info] 	- size[7]: 82
+[09:09:24.320052][info] 	- size[9]: 249016
+[09:09:24.320052][info] 	- size[346]: 1
+[09:09:24.320052][info] 	- size[248758]: 1
+[09:09:24.320052][info] 	- capacity[9]: 249104
+[09:09:24.320052][info] 	- capacity[249104]: 2
+[09:09:24.320052][info] Compute boykov_kolmogorov_max_flow.
+[09:09:25.142852][info] Full (white):0
+[09:09:25.142852][info] Empty (black):4
+[09:09:25.142852][info] Undefined (gray):1
+[09:09:25.142852][info] 	- color[0]: 110838
+[09:09:25.142852][info] 	- color[4]: 138268
+[09:09:25.143849][info] totalFlow: 1.03072e+06
+[09:09:25.143849][info] Maxflow: update full/empty cells status.
+[09:09:25.145844][info] Maxflow: done.
+[09:09:25.335081][info] Maxflow: convert result to surface.
+[09:09:25.360014][info] setIsOnSurface nbSurfaceFacets: 71713
+[09:09:25.410879][info] setIsOnSurface nbSurfaceFacets: 71713
+[09:09:25.534548][info] setIsOnSurface nbSurfaceFacets: 71662
+[09:09:25.534548][info] reconstructGC done.
+[09:09:25.534548][info] Graph cut post-processing.
+[09:09:25.550140][info] Graph cut post-processing done.
+[09:09:25.550140][info] Extract mesh from Graph Cut.
+[09:09:25.571085][info] setIsOnSurface nbSurfaceFacets: 68412
+[09:09:25.571085][info] # surface facets: 68412
+[09:09:25.571085][info] # vertixes: 40268
+[09:09:25.571085][info] _cellIsFull.size(): 249104
+[09:09:25.602002][info] Extract mesh from Graph Cut done.
+[09:09:25.602002][info] Extract visibilities.
+[09:09:25.609980][info] Extract visibilities done.
+[09:09:25.610979][info] Mesh post-processing.
+[09:09:25.614967][info] remove free points from mesh.
+[09:09:25.624941][info] Mesh Cleaning.
+[09:09:25.805458][info] cleanMesh:
+	- # wrong points: 133
+	- # new points: 133
+[09:09:25.911176][info] cleanMesh:
+	- # wrong points: 1
+	- # new points: 1
+[09:09:26.012903][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[09:09:26.055788][info] Mesh post-processing done.
+[09:09:26.204391][info] Save dense point cloud.
+[09:09:26.236306][info] Save obj mesh file.
+[09:09:26.236306][info] Save mesh to obj: C:/Users/adamr/Desktop/model/MeshroomCache/Meshing/f6a63d9195a0855bc50cdd283ff1eb51f015c79c/mesh.obj
+[09:09:26.236306][info] Nb points: 33878
+[09:09:26.236306][info] Nb triangles: 67232
+[09:09:26.319086][info] Save mesh to obj done.
+[09:09:26.319086][info] Task done in (s): 11.819000

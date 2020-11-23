@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "StructureFromMotion_1",
+    "nodeType": "StructureFromMotion",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_incrementalSfM  --input \"C:/Users/adamr/Desktop/model/MeshroomCache/CameraInit/97aec57fe090f4fd5583ab937c30199e48641e2d/cameraInit.sfm\" --featuresFolders \"C:/Users/adamr/Desktop/model/MeshroomCache/FeatureExtraction/4eaf5481719c225ae82d7f78bd4a054b085ad51b\" --matchesFolders \"C:/Users/adamr/Desktop/model/MeshroomCache/FeatureMatching/ff33328a827915d6e89d23980f577be836cdd881\" --describerTypes sift --localizerEstimator acransac --observationConstraint Basic --localizerEstimatorMaxIterations 4096 --localizerEstimatorError 0.0 --lockScenePreviouslyReconstructed False --useLocalBA True --localBAGraphDistance 1 --maxNumberOfMatches 0 --minNumberOfMatches 0 --minInputTrackLength 2 --minNumberOfObservationsForTriangulation 2 --minAngleForTriangulation 3.0 --minAngleForLandmark 2.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0 --maxAngleInitialPair 40.0 --useOnlyMatchesFromInputFolder False --useRigConstraint True --lockAllIntrinsics False --filterTrackForks False --initialPairA \"\" --initialPairB \"\" --interFileExtension .abc --verboseLevel info --output \"C:/Users/adamr/Desktop/model/MeshroomCache/StructureFromMotion/593386d764658876097ff6ce205b18306f624e95/sfm.abc\" --outputViewsAndPoses \"C:/Users/adamr/Desktop/model/MeshroomCache/StructureFromMotion/593386d764658876097ff6ce205b18306f624e95/cameras.sfm\" --extraInfoFolder \"C:/Users/adamr/Desktop/model/MeshroomCache/StructureFromMotion/593386d764658876097ff6ce205b18306f624e95\"",
+    "env": null,
+    "startDateTime": "2020-11-23 09:07:31.702578",
+    "endDateTime": "2020-11-23 09:07:40.198248",
+    "elapsedTime": 8.495670080184937,
+    "hostname": "DESKTOP-K0AQLBP",
+    "sessionUid": "911fce6e-2d62-11eb-8286-2c4d544bba5d",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:08.495670"
+}

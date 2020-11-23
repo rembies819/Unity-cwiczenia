@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureExtraction_1",
+    "nodeType": "FeatureExtraction",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureExtraction  --input \"C:/Users/adamr/Desktop/model/MeshroomCache/CameraInit/97aec57fe090f4fd5583ab937c30199e48641e2d/cameraInit.sfm\" --describerTypes sift --describerPreset normal --forceCpuExtraction True --maxThreads 0 --verboseLevel info --output \"C:/Users/adamr/Desktop/model/MeshroomCache/FeatureExtraction/4eaf5481719c225ae82d7f78bd4a054b085ad51b\" --rangeStart 0 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2020-11-23 09:06:57.059502",
+    "endDateTime": "2020-11-23 09:07:10.108150",
+    "elapsedTime": 13.049645185470581,
+    "hostname": "DESKTOP-K0AQLBP",
+    "sessionUid": "911fce6e-2d62-11eb-8286-2c4d544bba5d",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:13.049645"
+}

@@ -1,0 +1,117 @@
+Program called with the following parameters:
+ * describerPreset = "normal"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * input = "C:/Users/adamr/Desktop/model/MeshroomCache/CameraInit/97aec57fe090f4fd5583ab937c30199e48641e2d/cameraInit.sfm"
+ * maxThreads = 0
+ * output = "C:/Users/adamr/Desktop/model/MeshroomCache/FeatureExtraction/4eaf5481719c225ae82d7f78bd4a054b085ad51b"
+ * rangeSize = 40
+ * rangeStart = 0
+ * verboseLevel =  Unknown Type "enum aliceVision::system::EVerboseLevel"
+
+[09:06:57.164730][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce GTX 970
+	- compute capability:      5.2
+	- total device memory:     4096 MB 
+	- device memory available: 3375 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {65536,65536}
+	- max 3D array texture:    {4096,4096,4096}
+	- max 2D linear texture:   {65536,65536,1048544}
+	- max 2D layered texture:  {16384,16384,2048}
+	- number of SM(x)s:        13
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+0
+[09:06:57.269450][info] Supported CUDA-Enabled GPU detected.
+[09:06:57.270448][info] Job max memory consumption for one image: 231 MB
+[09:06:57.270448][info] Memory information: 
+	- Total RAM:  15.9323 GB
+	- Free RAM:   4.84055 GB
+	- Total swap: 131072 GB
+	- Free swap:  131040 GB
+[09:06:57.270448][info] Max number of threads regarding memory usage: 19
+[09:06:57.270448][warning] More than half of the RAM is used by other applications. It would be more efficient to close them.
+[09:06:57.270448][warning]  => 11 GB are used by other applications for a total RAM capacity of 16 GB.
+[09:06:57.270448][info] # threads for extraction: 8
+[09:06:57.489861][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126907305_424772988553171_907838436736946131_n.jpg' [cpu]
+[09:06:57.498838][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126949242_1050880175357927_8096989747134670521_n.jpg' [cpu]
+[09:06:57.510805][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126803586_864651740973134_485030944646039186_n.jpg' [cpu]
+[09:06:57.515792][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126860408_129616982032155_2083847048885398194_n.jpg' [cpu]
+[09:06:57.519781][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126940665_714782342789627_2925589311135684365_n.jpg' [cpu]
+[09:06:57.544716][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/127471984_1599217603614783_5421712584235413184_n.jpg' [cpu]
+[09:06:57.555685][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126899882_940975863095696_6974555702460738047_n.jpg' [cpu]
+[09:06:57.567653][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126816858_375370637089377_720279944487210137_n.jpg' [cpu]
+[09:06:59.438849][info]       1444 sift features extracted from view 'C:/Users/adamr/Desktop/model/126907305_424772988553171_907838436736946131_n.jpg'
+[09:06:59.494885][info]       1559 sift features extracted from view 'C:/Users/adamr/Desktop/model/126940665_714782342789627_2925589311135684365_n.jpg'
+[09:06:59.512811][info]       2247 sift features extracted from view 'C:/Users/adamr/Desktop/model/126803586_864651740973134_485030944646039186_n.jpg'
+[09:06:59.620754][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/127238438_1051920971955212_3292786152703135355_n.jpg' [cpu]
+[09:06:59.696718][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126903078_1067077167048825_8491695647967973447_n.jpg' [cpu]
+[09:06:59.711820][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126906293_376702910250946_6066612752441536166_n.jpg' [cpu]
+[09:06:59.802649][info]       3790 sift features extracted from view 'C:/Users/adamr/Desktop/model/126860408_129616982032155_2083847048885398194_n.jpg'
+[09:06:59.818636][info]       2687 sift features extracted from view 'C:/Users/adamr/Desktop/model/126949242_1050880175357927_8096989747134670521_n.jpg'
+[09:06:59.827640][info]       3769 sift features extracted from view 'C:/Users/adamr/Desktop/model/126899882_940975863095696_6974555702460738047_n.jpg'
+[09:06:59.864601][info]       3100 sift features extracted from view 'C:/Users/adamr/Desktop/model/126816858_375370637089377_720279944487210137_n.jpg'
+[09:07:00.125577][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126903078_3784798351550598_7879711696397043858_n.jpg' [cpu]
+[09:07:00.182599][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126945214_728762244428684_3199182853499645218_n.jpg' [cpu]
+[09:07:00.184193][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126984478_2725717104359159_719794302819938711_n.jpg' [cpu]
+[09:07:00.212624][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126863601_186939336407614_1196729071313388462_n.jpg' [cpu]
+[09:07:00.249635][info]       4126 sift features extracted from view 'C:/Users/adamr/Desktop/model/127471984_1599217603614783_5421712584235413184_n.jpg'
+[09:07:00.555641][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/127212851_413771473128447_8537009724236952763_n.jpg' [cpu]
+[09:07:01.370480][info]       1879 sift features extracted from view 'C:/Users/adamr/Desktop/model/127238438_1051920971955212_3292786152703135355_n.jpg'
+[09:07:01.392480][info]       2895 sift features extracted from view 'C:/Users/adamr/Desktop/model/126903078_1067077167048825_8491695647967973447_n.jpg'
+[09:07:01.416494][info]       2785 sift features extracted from view 'C:/Users/adamr/Desktop/model/126906293_376702910250946_6066612752441536166_n.jpg'
+[09:07:01.647423][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126857464_677111696338020_5040875854186444216_n.jpg' [cpu]
+[09:07:01.754425][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126859372_1158491797881119_2674130966249819407_n.jpg' [cpu]
+[09:07:01.782387][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126947806_416845559702177_8231050670675812421_n.jpg' [cpu]
+[09:07:02.565120][info]       3421 sift features extracted from view 'C:/Users/adamr/Desktop/model/126903078_3784798351550598_7879711696397043858_n.jpg'
+[09:07:02.567115][info]       3646 sift features extracted from view 'C:/Users/adamr/Desktop/model/126984478_2725717104359159_719794302819938711_n.jpg'
+[09:07:02.596037][info]       2810 sift features extracted from view 'C:/Users/adamr/Desktop/model/126863601_186939336407614_1196729071313388462_n.jpg'
+[09:07:02.791514][info]       4905 sift features extracted from view 'C:/Users/adamr/Desktop/model/126945214_728762244428684_3199182853499645218_n.jpg'
+[09:07:02.954079][info]       1768 sift features extracted from view 'C:/Users/adamr/Desktop/model/127212851_413771473128447_8537009724236952763_n.jpg'
+[09:07:03.001951][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126843678_822822725175519_4197744799990824419_n.jpg' [cpu]
+[09:07:03.045344][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126904353_2444214682552456_2215548409300772218_n(1).jpg' [cpu]
+[09:07:03.081249][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/127034463_108470517675374_4875680288075450742_n.jpg' [cpu]
+[09:07:03.190955][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/127253632_375799140199210_9045385518571437107_n.jpg' [cpu]
+[09:07:03.305158][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126898496_422240575654501_8849552302877707623_n.jpg' [cpu]
+[09:07:03.552007][info]       2666 sift features extracted from view 'C:/Users/adamr/Desktop/model/126859372_1158491797881119_2674130966249819407_n.jpg'
+[09:07:03.556993][info]       2419 sift features extracted from view 'C:/Users/adamr/Desktop/model/126947806_416845559702177_8231050670675812421_n.jpg'
+[09:07:03.608855][info]       4508 sift features extracted from view 'C:/Users/adamr/Desktop/model/126857464_677111696338020_5040875854186444216_n.jpg'
+[09:07:03.718073][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126873353_1301679546833005_4629859933774325564_n.jpg' [cpu]
+[09:07:03.719069][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126865651_195208095517496_4609465686494007394_n.jpg' [cpu]
+[09:07:03.786888][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126963200_667224897324535_5229047961856639355_n.jpg' [cpu]
+[09:07:05.682412][info]       2166 sift features extracted from view 'C:/Users/adamr/Desktop/model/126873353_1301679546833005_4629859933774325564_n.jpg'
+[09:07:05.782145][info]       3209 sift features extracted from view 'C:/Users/adamr/Desktop/model/127034463_108470517675374_4875680288075450742_n.jpg'
+[09:07:05.793117][info]       3829 sift features extracted from view 'C:/Users/adamr/Desktop/model/126865651_195208095517496_4609465686494007394_n.jpg'
+[09:07:05.793117][info]       2287 sift features extracted from view 'C:/Users/adamr/Desktop/model/126963200_667224897324535_5229047961856639355_n.jpg'
+[09:07:05.800097][info]       4657 sift features extracted from view 'C:/Users/adamr/Desktop/model/126843678_822822725175519_4197744799990824419_n.jpg'
+[09:07:05.809074][info]       4108 sift features extracted from view 'C:/Users/adamr/Desktop/model/126904353_2444214682552456_2215548409300772218_n(1).jpg'
+[09:07:05.829020][info]       1993 sift features extracted from view 'C:/Users/adamr/Desktop/model/126898496_422240575654501_8849552302877707623_n.jpg'
+[09:07:05.992584][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/127165333_212773706912123_5730900525241790192_n.jpg' [cpu]
+[09:07:06.042449][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126904353_2444214682552456_2215548409300772218_n.jpg' [cpu]
+[09:07:06.056412][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126857464_677111696338020_5040875854186444216_n(1).jpg' [cpu]
+[09:07:06.109271][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126816465_1013941525775500_1896358854784730174_n.jpg' [cpu]
+[09:07:06.147172][info]       6008 sift features extracted from view 'C:/Users/adamr/Desktop/model/127253632_375799140199210_9045385518571437107_n.jpg'
+[09:07:06.367092][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126948780_444534206948646_834323365797266253_n.jpg' [cpu]
+[09:07:08.209258][info]       4508 sift features extracted from view 'C:/Users/adamr/Desktop/model/126857464_677111696338020_5040875854186444216_n(1).jpg'
+[09:07:08.248155][info]       2841 sift features extracted from view 'C:/Users/adamr/Desktop/model/127165333_212773706912123_5730900525241790192_n.jpg'
+[09:07:08.308502][info]       4108 sift features extracted from view 'C:/Users/adamr/Desktop/model/126904353_2444214682552456_2215548409300772218_n.jpg'
+[09:07:08.309499][info]       4054 sift features extracted from view 'C:/Users/adamr/Desktop/model/126816465_1013941525775500_1896358854784730174_n.jpg'
+[09:07:08.410230][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126909371_429620704863490_4880124137292171600_n.jpg' [cpu]
+[09:07:08.489527][info] Extracting sift features from view 'C:/Users/adamr/Desktop/model/126906271_187437722957319_1409839607656921164_n.jpg' [cpu]
+[09:07:08.522438][info]       4548 sift features extracted from view 'C:/Users/adamr/Desktop/model/126948780_444534206948646_834323365797266253_n.jpg'
+[09:07:09.830239][info]       2113 sift features extracted from view 'C:/Users/adamr/Desktop/model/126909371_429620704863490_4880124137292171600_n.jpg'
+[09:07:09.956243][info]       4278 sift features extracted from view 'C:/Users/adamr/Desktop/model/126906271_187437722957319_1409839607656921164_n.jpg'
+[09:07:09.958238][info] Task done in (s): 12.688000

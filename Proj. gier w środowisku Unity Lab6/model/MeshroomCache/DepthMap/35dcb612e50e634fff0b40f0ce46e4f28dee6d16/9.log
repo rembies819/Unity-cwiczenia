@@ -1,0 +1,56 @@
+Program called with the following parameters:
+ * downscale = 2
+ * exportIntermediateResults = 0
+ * imagesFolder = "C:/Users/adamr/Desktop/model/MeshroomCache/PrepareDenseScene/617380854be228f74a0ceef3e32093cd13be9716"
+ * input = "C:/Users/adamr/Desktop/model/MeshroomCache/StructureFromMotion/593386d764658876097ff6ce205b18306f624e95/sfm.abc"
+ * maxViewAngle = 70
+ * minViewAngle = 2
+ * nbGPUs = 0
+ * output = "C:/Users/adamr/Desktop/model/MeshroomCache/DepthMap/35dcb612e50e634fff0b40f0ce46e4f28dee6d16"
+ * rangeSize = 3
+ * rangeStart = 27
+ * refineGammaC = 15.5
+ * refineGammaP = 8
+ * refineMaxTCams = 6
+ * refineNDepthsToRefine = 31
+ * refineNSamplesHalf = 150
+ * refineNiters = 100
+ * refineSigma = 15
+ * refineUseTcOrRcPixSize = 0
+ * refineWSH = 3
+ * sgmGammaC = 5.5
+ * sgmGammaP = 8
+ * sgmMaxTCams = 10
+ * sgmWSH = 4
+ * verboseLevel = "info"
+
+[09:08:57.788328][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce GTX 970
+	- compute capability:      5.2
+	- total device memory:     4096 MB 
+	- device memory available: 3375 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {65536,65536}
+	- max 3D array texture:    {4096,4096,4096}
+	- max 2D linear texture:   {65536,65536,1048544}
+	- max 2D layered texture:  {16384,16384,2048}
+	- number of SM(x)s:        13
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+[09:08:57.942426][info] Supported CUDA-Enabled GPU detected.
+[09:08:57.970859][info] Found 1 image dimension(s): 
+[09:08:57.970859][info] 	- [1488x2000]
+[09:08:57.988811][info] Overall maximum dimension: [1488x2000]
+[09:08:57.988811][info] No camera to process.

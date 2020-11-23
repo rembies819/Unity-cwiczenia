@@ -1,0 +1,441 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [C:/Users/adamr/Desktop/model/MeshroomCache/FeatureExtraction/4eaf5481719c225ae82d7f78bd4a054b085ad51b]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList =  = [C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt]
+ * input = "C:/Users/adamr/Desktop/model/MeshroomCache/CameraInit/97aec57fe090f4fd5583ab937c30199e48641e2d/cameraInit.sfm"
+ * knownPosesGeometricErrorMax = 5
+ * matchFilePerImage = 0 (default)
+ * matchFromKnownCameraPoses = 0
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "C:/Users/adamr/Desktop/model/MeshroomCache/FeatureMatching/ff33328a827915d6e89d23980f577be836cdd881"
+ * photometricMatchingMethod = "ANN_L2"
+ * rangeSize = 20
+ * rangeStart = 20
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[09:07:27.924578][info] Load pair list from file: C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1455135940) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1478884387) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1559768425) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1625282765) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1642236225) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1681010432) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1412190849, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 1478884387) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 1559768425) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 1625282765) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 1642236225) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 1681010432) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.924578][info] loadPairs: image pair (1455135940, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1455135940, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1455135940, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1455135940, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 1559768425) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 1625282765) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 1642236225) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 1681010432) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1478884387, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 1625282765) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 1642236225) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 1681010432) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1559768425, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 1642236225) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 1681010432) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1625282765, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 1681010432) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1642236225, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 1868875671) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1681010432, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1868875671, 2004098830) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1868875671, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1868875671, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1868875671, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1868875671, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (1868875671, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2004098830, 2043528686) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2004098830, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2004098830, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2004098830, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2004098830, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2043528686, 2064943595) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2043528686, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2043528686, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2043528686, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2064943595, 2101519230) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2064943595, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2064943595, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2101519230, 2112039065) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2101519230, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] loadPairs: image pair (2112039065, 2123400983) added. File: "C:/Users/adamr/Desktop/model/MeshroomCache/ImageMatching/45bf1c2b24a92a379f6f6cc8f3743441821bd3f9/imageMatches.txt".
+[09:07:27.925575][info] Number of pairs: 91
+[09:07:27.926573][info] There are 34 views and 91 image pairs.
+[09:07:27.926573][info] Load features and descriptors
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[09:07:27.949511][info] Supported CUDA-Enabled GPU detected.
+********************[09:07:28.038725][info] Putative matches (unknown poses): 91 image pairs.
+[09:07:28.038725][info] sift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[09:07:31.263175][info] 91 putative image pair matches
+[09:07:31.263175][info] 	- image pair (1412190849, 1455135940) contains 170 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 1478884387) contains 154 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 1559768425) contains 101 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 1625282765) contains 105 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 1642236225) contains 127 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 1681010432) contains 57 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 1868875671) contains 110 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 2004098830) contains 124 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 2043528686) contains 36 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 2064943595) contains 103 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 2101519230) contains 152 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 2112039065) contains 51 putative matches.
+[09:07:31.263175][info] 	- image pair (1412190849, 2123400983) contains 113 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 1478884387) contains 116 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 1559768425) contains 98 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 1625282765) contains 105 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 1642236225) contains 326 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 1681010432) contains 75 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 1868875671) contains 112 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 2004098830) contains 125 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 2043528686) contains 44 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 2064943595) contains 101 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 2101519230) contains 120 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 2112039065) contains 60 putative matches.
+[09:07:31.263175][info] 	- image pair (1455135940, 2123400983) contains 111 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 1559768425) contains 122 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 1625282765) contains 116 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 1642236225) contains 133 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 1681010432) contains 81 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 1868875671) contains 128 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 2004098830) contains 122 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 2043528686) contains 56 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 2064943595) contains 100 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 2101519230) contains 313 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 2112039065) contains 68 putative matches.
+[09:07:31.263175][info] 	- image pair (1478884387, 2123400983) contains 117 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 1625282765) contains 88 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 1642236225) contains 109 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 1681010432) contains 288 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 1868875671) contains 96 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 2004098830) contains 101 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 2043528686) contains 54 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 2064943595) contains 132 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 2101519230) contains 97 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 2112039065) contains 78 putative matches.
+[09:07:31.263175][info] 	- image pair (1559768425, 2123400983) contains 108 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 1642236225) contains 99 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 1681010432) contains 87 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 1868875671) contains 92 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 2004098830) contains 104 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 2043528686) contains 42 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 2064943595) contains 83 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 2101519230) contains 95 putative matches.
+[09:07:31.263175][info] 	- image pair (1625282765, 2112039065) contains 64 putative matches.
+[09:07:31.264172][info] 	- image pair (1625282765, 2123400983) contains 96 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 1681010432) contains 76 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 1868875671) contains 113 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 2004098830) contains 114 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 2043528686) contains 50 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 2064943595) contains 100 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 2101519230) contains 114 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 2112039065) contains 61 putative matches.
+[09:07:31.264172][info] 	- image pair (1642236225, 2123400983) contains 114 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 1868875671) contains 64 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 2004098830) contains 62 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 2043528686) contains 64 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 2064943595) contains 96 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 2101519230) contains 66 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 2112039065) contains 64 putative matches.
+[09:07:31.264172][info] 	- image pair (1681010432, 2123400983) contains 67 putative matches.
+[09:07:31.264172][info] 	- image pair (1868875671, 2004098830) contains 152 putative matches.
+[09:07:31.264172][info] 	- image pair (1868875671, 2043528686) contains 47 putative matches.
+[09:07:31.264172][info] 	- image pair (1868875671, 2064943595) contains 98 putative matches.
+[09:07:31.264172][info] 	- image pair (1868875671, 2101519230) contains 113 putative matches.
+[09:07:31.264172][info] 	- image pair (1868875671, 2112039065) contains 65 putative matches.
+[09:07:31.264172][info] 	- image pair (1868875671, 2123400983) contains 117 putative matches.
+[09:07:31.264172][info] 	- image pair (2004098830, 2043528686) contains 55 putative matches.
+[09:07:31.264172][info] 	- image pair (2004098830, 2064943595) contains 102 putative matches.
+[09:07:31.264172][info] 	- image pair (2004098830, 2101519230) contains 126 putative matches.
+[09:07:31.264172][info] 	- image pair (2004098830, 2112039065) contains 45 putative matches.
+[09:07:31.264172][info] 	- image pair (2004098830, 2123400983) contains 117 putative matches.
+[09:07:31.264172][info] 	- image pair (2043528686, 2064943595) contains 39 putative matches.
+[09:07:31.264172][info] 	- image pair (2043528686, 2101519230) contains 31 putative matches.
+[09:07:31.264172][info] 	- image pair (2043528686, 2112039065) contains 686 putative matches.
+[09:07:31.264172][info] 	- image pair (2043528686, 2123400983) contains 51 putative matches.
+[09:07:31.264172][info] 	- image pair (2064943595, 2101519230) contains 111 putative matches.
+[09:07:31.264172][info] 	- image pair (2064943595, 2112039065) contains 52 putative matches.
+[09:07:31.264172][info] 	- image pair (2064943595, 2123400983) contains 110 putative matches.
+[09:07:31.264172][info] 	- image pair (2101519230, 2112039065) contains 62 putative matches.
+[09:07:31.264172][info] 	- image pair (2101519230, 2123400983) contains 120 putative matches.
+[09:07:31.264172][info] 	- image pair (2112039065, 2123400983) contains 40 putative matches.
+[09:07:31.264172][info] Task (Regions Matching) done in (s): 3.225000
+[09:07:31.264172][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[09:07:31.265169][info] RelativePoseKernel: x1: 2x170, x2: 2x170
+[09:07:31.265169][info] RelativePoseKernel: x1: 2x154, x2: 2x154
+[09:07:31.265169][info] RelativePoseKernel: x1: 2x101, x2: 2x101
+[09:07:31.265169][info] RelativePoseKernel: x1: 2x105, x2: 2x105
+[09:07:31.265169][info] RelativePoseKernel: x1: 2x127, x2: 2x127
+[09:07:31.266167][info] RelativePoseKernel: x1: 2x57, x2: 2x57
+[09:07:31.269159][info] RelativePoseKernel: x1: 2x110, x2: 2x110
+[09:07:31.276140][info] RelativePoseKernel: x1: 2x124, x2: 2x124
+*[09:07:31.276140][info] RelativePoseKernel: x1: 2x36, x2: 2x36
+*[09:07:31.276140][info] RelativePoseKernel: x1: 2x103, x2: 2x103
+*[09:07:31.277137][info] RelativePoseKernel: x1: 2x152, x2: 2x152
+[09:07:31.278134][info] RelativePoseKernel: x1: 2x51, x2: 2x51
+*[09:07:31.279131][info] RelativePoseKernel: x1: 2x113, x2: 2x113
+[09:07:31.282123][info] RelativePoseKernel: x1: 2x116, x2: 2x116
+*[09:07:31.282123][info] RelativePoseKernel: x1: 2x98, x2: 2x98
+[09:07:31.286113][info] RelativePoseKernel: x1: 2x105, x2: 2x105
+*[09:07:31.287110][info] RelativePoseKernel: x1: 2x326, x2: 2x326
+*[09:07:31.288107][info] RelativePoseKernel: x1: 2x75, x2: 2x75
+[09:07:31.291099][info] RelativePoseKernel: x1: 2x112, x2: 2x112
+*[09:07:31.291099][info] RelativePoseKernel: x1: 2x125, x2: 2x125
+[09:07:31.293094][info] RelativePoseKernel: x1: 2x44, x2: 2x44
+*[09:07:31.294091][info] RelativePoseKernel: x1: 2x101, x2: 2x101
+[09:07:31.298082][info] RelativePoseKernel: x1: 2x120, x2: 2x120
+*[09:07:31.300076][info] RelativePoseKernel: x1: 2x60, x2: 2x60
+*[09:07:31.308055][info] RelativePoseKernel: x1: 2x122, x2: 2x122
+[09:07:31.308055][info] RelativePoseKernel: x1: 2x111, x2: 2x111
+[09:07:31.309052][info] RelativePoseKernel: x1: 2x116, x2: 2x116
+*[09:07:31.312043][info] RelativePoseKernel: x1: 2x133, x2: 2x133
+*[09:07:31.313041][info] RelativePoseKernel: x1: 2x81, x2: 2x81
+[09:07:31.320022][info] RelativePoseKernel: x1: 2x128, x2: 2x128
+*[09:07:31.321020][info] RelativePoseKernel: x1: 2x122, x2: 2x122
+[09:07:31.324012][info] RelativePoseKernel: x1: 2x56, x2: 2x56
+*[09:07:31.325009][info] RelativePoseKernel: x1: 2x100, x2: 2x100
+[09:07:31.327003][info] RelativePoseKernel: x1: 2x313, x2: 2x313
+*[09:07:31.331990][info] RelativePoseKernel: x1: 2x68, x2: 2x68
+[09:07:31.339969][info] RelativePoseKernel: x1: 2x117, x2: 2x117
+*[09:07:31.339969][info] RelativePoseKernel: x1: 2x88, x2: 2x88
+*[09:07:31.341964][info] RelativePoseKernel: x1: 2x109, x2: 2x109
+[09:07:31.349943][info] RelativePoseKernel: x1: 2x288, x2: 2x288
+*[09:07:31.351937][info] RelativePoseKernel: x1: 2x96, x2: 2x96
+[09:07:31.352934][info] RelativePoseKernel: x1: 2x101, x2: 2x101
+*[09:07:31.354929][info] RelativePoseKernel: x1: 2x54, x2: 2x54
+[09:07:31.358918][info] RelativePoseKernel: x1: 2x132, x2: 2x132
+*[09:07:31.366897][info] RelativePoseKernel: x1: 2x97, x2: 2x97
+[09:07:31.367894][info] RelativePoseKernel: x1: 2x78, x2: 2x78
+*[09:07:31.367894][info] RelativePoseKernel: x1: 2x108, x2: 2x108
+[09:07:31.372881][info] RelativePoseKernel: x1: 2x99, x2: 2x99
+*[09:07:31.376870][info] RelativePoseKernel: x1: 2x87, x2: 2x87
+*[09:07:31.377868][info] RelativePoseKernel: x1: 2x92, x2: 2x92
+[09:07:31.380860][info] RelativePoseKernel: x1: 2x104, x2: 2x104
+*[09:07:31.380860][info] RelativePoseKernel: x1: 2x42, x2: 2x42
+[09:07:31.385869][info] RelativePoseKernel: x1: 2x83, x2: 2x83
+*[09:07:31.386867][info] RelativePoseKernel: x1: 2x95, x2: 2x95
+[09:07:31.390856][info] RelativePoseKernel: x1: 2x64, x2: 2x64
+*[09:07:31.394362][info] RelativePoseKernel: x1: 2x76, x2: 2x76
+[09:07:31.394362][info] RelativePoseKernel: x1: 2x96, x2: 2x96
+*[09:07:31.397858][info] RelativePoseKernel: x1: 2x113, x2: 2x113
+*[09:07:31.400850][info] RelativePoseKernel: x1: 2x114, x2: 2x114
+*[09:07:31.404878][info] RelativePoseKernel: x1: 2x50, x2: 2x50
+[09:07:31.404878][info] RelativePoseKernel: x1: 2x100, x2: 2x100
+[09:07:31.407859][info] RelativePoseKernel: x1: 2x114, x2: 2x114
+*[09:07:31.410851][info] RelativePoseKernel: x1: 2x61, x2: 2x61
+[09:07:31.413843][info] RelativePoseKernel: x1: 2x114, x2: 2x114
+*[09:07:31.415859][info] RelativePoseKernel: x1: 2x64, x2: 2x64
+[09:07:31.417853][info] RelativePoseKernel: x1: 2x62, x2: 2x62
+*[09:07:31.422840][info] RelativePoseKernel: x1: 2x64, x2: 2x64
+[09:07:31.427848][info] RelativePoseKernel: x1: 2x96, x2: 2x96
+*[09:07:31.427848][info] RelativePoseKernel: x1: 2x66, x2: 2x66
+*[09:07:31.428846][info] RelativePoseKernel: x1: 2x64, x2: 2x64
+[09:07:31.429843][info] RelativePoseKernel: x1: 2x67, x2: 2x67
+*[09:07:31.435850][info] RelativePoseKernel: x1: 2x152, x2: 2x152
+[09:07:31.438842][info] RelativePoseKernel: x1: 2x47, x2: 2x47
+*[09:07:31.439840][info] RelativePoseKernel: x1: 2x98, x2: 2x98
+[09:07:31.441834][info] RelativePoseKernel: x1: 2x113, x2: 2x113
+*[09:07:31.442831][info] RelativePoseKernel: x1: 2x65, x2: 2x65
+[09:07:31.453827][info] RelativePoseKernel: x1: 2x117, x2: 2x117
+*[09:07:31.453827][info] RelativePoseKernel: x1: 2x55, x2: 2x55
+*[09:07:31.458838][info] RelativePoseKernel: x1: 2x102, x2: 2x102
+[09:07:31.458838][info] RelativePoseKernel: x1: 2x126, x2: 2x126
+*[09:07:31.459835][info] RelativePoseKernel: x1: 2x45, x2: 2x45
+[09:07:31.470826][info] RelativePoseKernel: x1: 2x117, x2: 2x117
+*[09:07:31.474335][info] RelativePoseKernel: x1: 2x39, x2: 2x39
+[09:07:31.482820][info] RelativePoseKernel: x1: 2x31, x2: 2x31
+*[09:07:31.487829][info] RelativePoseKernel: x1: 2x686, x2: 2x686
+[09:07:31.490820][info] RelativePoseKernel: x1: 2x51, x2: 2x51
+*[09:07:31.495835][info] RelativePoseKernel: x1: 2x111, x2: 2x111
+[09:07:31.497830][info] RelativePoseKernel: x1: 2x52, x2: 2x52
+*[09:07:31.498827][info] RelativePoseKernel: x1: 2x110, x2: 2x110
+*[09:07:31.506830][info] RelativePoseKernel: x1: 2x62, x2: 2x62
+[09:07:31.507828][info] RelativePoseKernel: x1: 2x120, x2: 2x120
+*[09:07:31.511817][info] RelativePoseKernel: x1: 2x40, x2: 2x40
+****
+[09:07:31.571823][info] 59 geometric image pair matches:
+[09:07:31.571823][info] 	- image pair (1412190849, 1455135940) contains 83 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 1478884387) contains 88 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 1559768425) contains 70 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 1625282765) contains 67 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 1642236225) contains 85 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 1868875671) contains 88 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 2004098830) contains 86 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 2064943595) contains 71 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 2101519230) contains 86 geometric matches.
+[09:07:31.571823][info] 	- image pair (1412190849, 2123400983) contains 79 geometric matches.
+[09:07:31.571823][info] 	- image pair (1455135940, 1478884387) contains 87 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 1559768425) contains 69 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 1625282765) contains 76 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 1642236225) contains 277 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 1868875671) contains 88 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 2004098830) contains 92 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 2064943595) contains 74 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 2101519230) contains 87 geometric matches.
+[09:07:31.572821][info] 	- image pair (1455135940, 2123400983) contains 80 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 1559768425) contains 75 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 1625282765) contains 73 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 1642236225) contains 94 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 1868875671) contains 96 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 2004098830) contains 98 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 2064943595) contains 83 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 2101519230) contains 246 geometric matches.
+[09:07:31.572821][info] 	- image pair (1478884387, 2123400983) contains 83 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 1625282765) contains 54 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 1642236225) contains 71 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 1681010432) contains 214 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 1868875671) contains 61 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 2004098830) contains 64 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 2064943595) contains 86 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 2101519230) contains 67 geometric matches.
+[09:07:31.572821][info] 	- image pair (1559768425, 2123400983) contains 70 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 1642236225) contains 70 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 1868875671) contains 70 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 2004098830) contains 68 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 2064943595) contains 63 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 2101519230) contains 73 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 2112039065) contains 54 geometric matches.
+[09:07:31.572821][info] 	- image pair (1625282765, 2123400983) contains 65 geometric matches.
+[09:07:31.572821][info] 	- image pair (1642236225, 1868875671) contains 84 geometric matches.
+[09:07:31.572821][info] 	- image pair (1642236225, 2004098830) contains 87 geometric matches.
+[09:07:31.572821][info] 	- image pair (1642236225, 2064943595) contains 83 geometric matches.
+[09:07:31.572821][info] 	- image pair (1642236225, 2101519230) contains 88 geometric matches.
+[09:07:31.572821][info] 	- image pair (1642236225, 2123400983) contains 80 geometric matches.
+[09:07:31.572821][info] 	- image pair (1681010432, 2064943595) contains 55 geometric matches.
+[09:07:31.572821][info] 	- image pair (1868875671, 2004098830) contains 95 geometric matches.
+[09:07:31.572821][info] 	- image pair (1868875671, 2064943595) contains 77 geometric matches.
+[09:07:31.573818][info] 	- image pair (1868875671, 2101519230) contains 94 geometric matches.
+[09:07:31.573818][info] 	- image pair (1868875671, 2123400983) contains 85 geometric matches.
+[09:07:31.573818][info] 	- image pair (2004098830, 2064943595) contains 79 geometric matches.
+[09:07:31.573818][info] 	- image pair (2004098830, 2101519230) contains 98 geometric matches.
+[09:07:31.573818][info] 	- image pair (2004098830, 2123400983) contains 83 geometric matches.
+[09:07:31.573818][info] 	- image pair (2043528686, 2112039065) contains 606 geometric matches.
+[09:07:31.573818][info] 	- image pair (2064943595, 2101519230) contains 79 geometric matches.
+[09:07:31.573818][info] 	- image pair (2064943595, 2123400983) contains 76 geometric matches.
+[09:07:31.573818][info] 	- image pair (2101519230, 2123400983) contains 82 geometric matches.
+[09:07:31.573818][info] Grid filtering
+[09:07:31.575837][info] After grid filtering:
+[09:07:31.575837][info] 	- image pair (1412190849, 1455135940) contains 83 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 1478884387) contains 88 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 1559768425) contains 70 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 1625282765) contains 67 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 1642236225) contains 85 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 1868875671) contains 88 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 2004098830) contains 86 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 2064943595) contains 71 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 2101519230) contains 86 geometric matches.
+[09:07:31.575837][info] 	- image pair (1412190849, 2123400983) contains 79 geometric matches.
+[09:07:31.575837][info] 	- image pair (1455135940, 1478884387) contains 87 geometric matches.
+[09:07:31.575837][info] 	- image pair (1455135940, 1559768425) contains 69 geometric matches.
+[09:07:31.575837][info] 	- image pair (1455135940, 1625282765) contains 76 geometric matches.
+[09:07:31.575837][info] 	- image pair (1455135940, 1642236225) contains 277 geometric matches.
+[09:07:31.575837][info] 	- image pair (1455135940, 1868875671) contains 88 geometric matches.
+[09:07:31.576836][info] 	- image pair (1455135940, 2004098830) contains 92 geometric matches.
+[09:07:31.576836][info] 	- image pair (1455135940, 2064943595) contains 74 geometric matches.
+[09:07:31.576836][info] 	- image pair (1455135940, 2101519230) contains 87 geometric matches.
+[09:07:31.576836][info] 	- image pair (1455135940, 2123400983) contains 80 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 1559768425) contains 75 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 1625282765) contains 73 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 1642236225) contains 94 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 1868875671) contains 96 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 2004098830) contains 98 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 2064943595) contains 83 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 2101519230) contains 246 geometric matches.
+[09:07:31.576836][info] 	- image pair (1478884387, 2123400983) contains 83 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 1625282765) contains 54 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 1642236225) contains 71 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 1681010432) contains 214 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 1868875671) contains 61 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 2004098830) contains 64 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 2064943595) contains 86 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 2101519230) contains 67 geometric matches.
+[09:07:31.576836][info] 	- image pair (1559768425, 2123400983) contains 70 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 1642236225) contains 70 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 1868875671) contains 70 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 2004098830) contains 68 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 2064943595) contains 63 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 2101519230) contains 73 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 2112039065) contains 54 geometric matches.
+[09:07:31.576836][info] 	- image pair (1625282765, 2123400983) contains 65 geometric matches.
+[09:07:31.576836][info] 	- image pair (1642236225, 1868875671) contains 84 geometric matches.
+[09:07:31.576836][info] 	- image pair (1642236225, 2004098830) contains 87 geometric matches.
+[09:07:31.576836][info] 	- image pair (1642236225, 2064943595) contains 83 geometric matches.
+[09:07:31.576836][info] 	- image pair (1642236225, 2101519230) contains 88 geometric matches.
+[09:07:31.576836][info] 	- image pair (1642236225, 2123400983) contains 80 geometric matches.
+[09:07:31.576836][info] 	- image pair (1681010432, 2064943595) contains 55 geometric matches.
+[09:07:31.576836][info] 	- image pair (1868875671, 2004098830) contains 95 geometric matches.
+[09:07:31.576836][info] 	- image pair (1868875671, 2064943595) contains 77 geometric matches.
+[09:07:31.576836][info] 	- image pair (1868875671, 2101519230) contains 94 geometric matches.
+[09:07:31.576836][info] 	- image pair (1868875671, 2123400983) contains 85 geometric matches.
+[09:07:31.576836][info] 	- image pair (2004098830, 2064943595) contains 79 geometric matches.
+[09:07:31.576836][info] 	- image pair (2004098830, 2101519230) contains 98 geometric matches.
+[09:07:31.576836][info] 	- image pair (2004098830, 2123400983) contains 83 geometric matches.
+[09:07:31.576836][info] 	- image pair (2043528686, 2112039065) contains 606 geometric matches.
+[09:07:31.576836][info] 	- image pair (2064943595, 2101519230) contains 79 geometric matches.
+[09:07:31.576836][info] 	- image pair (2064943595, 2123400983) contains 76 geometric matches.
+[09:07:31.576836][info] 	- image pair (2101519230, 2123400983) contains 82 geometric matches.
+[09:07:31.576836][info] Save geometric matches.
+[09:07:31.606834][info] Task done in (s): 0.341000
